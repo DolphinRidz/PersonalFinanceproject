@@ -1,4 +1,7 @@
+import './ExpenseList.css';
+
 function ExpenseList(){
+
 
 }
 
