@@ -9,13 +9,14 @@ function ExpenseItem(prop) {
     
 
     return (
+        <li>
         <Card className='expense-item'>
             <ExpenseDate date={prop.date}/>
             <div className='expense-item__description'> <h2 className='expense-item__description h2'>{prop.title}</h2>
             <div className='expense-item__price'>&#8377; {prop.amount}</div>
             </div>
-            <button>Change Title</button>
         </Card>
+        </li>
     )
 }
 
